@@ -24,6 +24,7 @@ function App() {
           {/* Public Routes */}
           <Route path="/register" element={<Register />} />
           <Route path="/" element={<Login />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route path="/reset-password/:token" element={<ResetPasswordPage />} />
 
@@ -39,6 +40,9 @@ function App() {
             <Route path="/manage-departments" element={<ManageDepartmentsPage />} />
             <Route path="/calendar" element={<LeaveCalendarPage />} />
           </Route>
+
+          {/* Catch-all fallback */}
+          <Route path="*" element={<Login />} />
         </Routes>
       </Router>
     </div>
