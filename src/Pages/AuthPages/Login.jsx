@@ -4,8 +4,8 @@ import { useNavigate, Link } from 'react-router-dom'
 import { API_BASE_URL } from '../../config';
 
 const Login = () => {
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
+    const [email, setEmail] = useState('alfiya.khan@iqratechnology.com')
+    const [password, setPassword] = useState('admin123')
     const navigate = useNavigate()
 
     const handleSubmit = async (e) => {
@@ -79,10 +79,23 @@ const Login = () => {
                         <div>
                             <button
                                 type="submit"
-                                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-lg shadow-lg hover:shadow-indigo-500/30 transition-all duration-200 transform hover:-translate-y-0.5 active:translate-y-0 active:shadow-md"
+                                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 rounded-lg shadow-lg hover:shadow-indigo-500/30 transition-all duration-200 transform hover:-translate-y-0.5 active:translate-y-0 active:shadow-md cursor-pointer"
                             >
                                 Sign In
                             </button>
+                        </div>
+
+                        <div className="p-3.5 bg-indigo-50/80 border border-indigo-100 rounded-xl text-xs text-indigo-900 flex flex-col gap-1">
+                            <div className="flex items-center gap-1.5 font-semibold text-indigo-700">
+                                <span>🔑 Quick Demo Credentials (Pre-filled):</span>
+                            </div>
+                            <div className="flex justify-between items-center text-gray-600 font-mono text-[11px] mt-0.5">
+                                <span>Email: <strong className="text-indigo-800">alfiya.khan@iqratechnology.com</strong></span>
+                            </div>
+                            <div className="flex justify-between items-center text-gray-600 font-mono text-[11px]">
+                                <span>Password: <strong className="text-indigo-800">admin123</strong></span>
+                            </div>
+                            <p className="text-[10px] text-gray-400 mt-1 italic">Click "Sign In" directly to access the Admin Leave Dashboard</p>
                         </div>
                     </form>
 
