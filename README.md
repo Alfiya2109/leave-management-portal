@@ -1,33 +1,29 @@
-# Getting Started with Create React App
+# 🏖️ Enterprise Employee Leave Management System (LMS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 🔗 **Live Website Demo**: [https://leave-management-portal-virid.vercel.app](https://leave-management-portal-virid.vercel.app)  
+> 🔑 **Demo Login Credentials (Pre-filled for instant evaluation)**:  
+> - **Username**: `alfiya.khan@iqratechnology.com`  
+> - **Password**: `admin123`  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Overview
+A comprehensive enterprise SaaS Leave Management Portal built with **React** and **Tailwind CSS**. It automates employee leave applications, multi-tier manager and HR approvals, balance calculations, and holiday calendars.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Key Features
+- **Multi-Tier Approval Matrix**: Role-based workflow where applications flow from direct reporting managers to department HR.
+- **Quota & Balance Automation**: Real-time deduction of Paid Leaves (PL), Sick Leaves (SL), and Casual Leaves (CL).
+- **Interactive Leave Calendar**: Visual company-wide holiday calendar and peer availability tracking.
+- **Organization Hierarchy Tree**: Interactive team tree showing reporting structures and approval delegations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
+- **Frontend**: React, Tailwind CSS, Lucide Icons
+- **State Management**: React Context API
+- **Deployment**: Vercel CI/CD
 
 ### `npm run eject`
 
